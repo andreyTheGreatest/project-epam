@@ -1,0 +1,20 @@
+hr {
+    border-top: 1px solid grey;
+    width: 95vw;
+}
+
+#loading {
+    display: flex;
+    align-items: center;
+    height: 63vh;
+    justify-content: center;
+}
+
+#card {
+    display: flex;
+    margin-left: 2.5vw;
+}
+
+#description {
+    margin-left: 20px;
+}

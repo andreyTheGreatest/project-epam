@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Geomanist;
+    src: url("./geomanist-regular.woff");
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header .iframe-container {
+    align-self: center;
+}
+
+.hr {
+    border-top: 1px solid grey;
+    width: 95vw;
+}
+
+.text {
+    padding-left: 2.5vw;
+}

@@ -1,0 +1,24 @@
+#map {
+    height: 300px;
+    width: 400px;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#map {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#restContent {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

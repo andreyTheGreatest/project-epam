@@ -1,0 +1,41 @@
+#list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#all {
+    width: 100vw;
+}
+
+.subHeader {
+    display: flex;
+}
+
+#searchForm {
+    position: absolute;
+    right: 1vw;
+}
+
+#err {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#page-numbers {
+    display: flex;
+    justify-content: center;
+
+}
+
+.number {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 10px 10px 10px;
+}
